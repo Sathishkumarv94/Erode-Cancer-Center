@@ -1,0 +1,36 @@
+.insurance-section {
+    padding: 60px 20px;
+    background-color: #f4f4fa;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .insurance-title {
+    font-size: 2.2rem;
+    color: #4b2b7f;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .insurance-slider {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .insurance-slide {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .insurance-slide img {
+    max-height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .insurance-slide img:hover {
+    transform: scale(1.1);
+  }
+  

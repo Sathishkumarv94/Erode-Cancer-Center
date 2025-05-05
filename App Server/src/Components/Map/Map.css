@@ -1,0 +1,63 @@
+.health-article-wrapper {
+    padding: 2rem;
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    overflow: hidden;
+  }
+  
+  .map-title {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+  
+  .health-article-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    
+  }
+  
+  .address-section,
+  .loc-section {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .address-section h3 {
+    color: blueviolet;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    
+  }
+  
+  .address-section p {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin: 0.5rem 0;
+    
+  }
+  
+  .loc-section iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .health-article-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .loc-section iframe {
+      height: 250px;
+    }
+  }
+  

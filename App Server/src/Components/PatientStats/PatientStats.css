@@ -1,0 +1,45 @@
+.plain-stats-section {
+    background: #faf8ff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .plain-stats-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px; /* more space between stats */
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .plain-stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .plain-stat-number {
+    font-size: 30px; /* Larger font size */
+    font-weight: bold;
+    color: #f27c49; /* deep purple */
+    letter-spacing: 2px; /* added space between numbers */
+  }
+  
+  .plain-stat-label {
+    font-size: 23px; /* Increased font size for labels */
+    color: #5e5e5e;
+    margin-top: 8px;
+    font-weight: 600; /* bolder text */
+    text-transform: capitalize; /* Makes labels more readable */
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .plain-stat-number {
+      font-size: 42px; /* Smaller font size on mobile */
+    }
+    .plain-stat-label {
+      font-size: 18px; /* Adjust label size */
+    }
+  }
+  

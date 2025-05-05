@@ -1,0 +1,19 @@
+.facility-module {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: serif;
+  }
+  
+  .facility-module h2 {
+    font-size: 2rem;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+  }
+  
+  .facility-module p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  

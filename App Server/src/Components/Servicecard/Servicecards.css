@@ -1,0 +1,91 @@
+.service-section {
+    padding: 2rem 2rem;
+    background: white;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .section-title h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #192a3d;
+    margin-bottom: 0.3rem;
+  }
+  
+  .section-subtitle p{
+    font-size: 1.2rem;
+    color: #f27c49;
+    margin-bottom: 1rem;
+  }
+  
+  .service-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .card-gradient {
+    /* background: linear-gradient(to right, #ffffff, #f0f0f0); */
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .card-gradient:hover {
+    transform: translateY(-10px);
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: #fff;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-gradient:hover .icon-glass {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .icon-glass {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: rgba(0, 0, 0, 0.05);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+  }
+  
+  .card-gradient h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-gradient p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: inherit;
+  }
+  .learn-more-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1.2rem;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  

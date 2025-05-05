@@ -1,0 +1,41 @@
+.hero-section {
+    position: relative;
+    height: 60vh;
+    background-image: url('./Assets//hos1.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+  }
+  
+  /* Dark overlay with opacity */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay with opacity */
+    z-index: 1; /* Place the overlay behind the text */
+  }
+  
+  /* Content (text) on top of overlay */
+  .hero-content {
+    position: relative;
+    z-index: 2; /* Make sure the text appears above the overlay */
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 0 20px; /* Optional: add padding for better readability */
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .hero-content p {
+    font-size: 1.4rem;
+  }
