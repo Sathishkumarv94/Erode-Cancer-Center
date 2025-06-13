@@ -3,11 +3,12 @@
     background: #f7f9fc;
     text-align: center;
     overflow: hidden;
+    margin-top: 95px;
   }
   
   .news-title {
-    font-size: 2.8rem;
-    color: #4b2b7f;
+    font-size: 2.7rem;
+    color: #e32782;
     font-weight: 700;
     margin-bottom: 60px;
   }
@@ -39,11 +40,12 @@
   .news-content {
     padding: 30px;
     text-align: left;
+    
   }
   
   .news-heading {
     font-size: 1.3rem;
-    color: #333;
+    color: #f27c49;
     margin-bottom: 20px;
     font-weight: 600;
   }
@@ -70,5 +72,12 @@
   
   .read-more:hover {
     color: #4b2b7f;
+    
+  }
+  @media all and (max-width: 786px){
+    .news-section{
+      margin-top: 0px;
+      padding: 60px 0px;
+    }
   }
   

@@ -1,15 +1,18 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./FacilityDetail.css";
 
-import otImg from "./Assets/fac3.jpeg"; // Replace with your OT grid image
-import heroImg from "./Assets/ope.jpg"; // Replace with your OT hero image
+import otImg from "./Assets/ope.jpg"; 
+import heroImg from "./Assets/ope.jpg"; 
 
 const OperationTheatre = () => {
+  useEffect(() => {
+        document.title = "OperationTheatre | Erode Cancer Centre Salem Unit";
+      }, []);
   return (
     <>
 
     <div className="facility-detail-page">
-      {/* Hero Section */}
+     
       <div className="hero-section">
         <img src={heroImg} alt="Operation Theatre Banner" className="hero-image" />
         <div className="hero-overlay">
@@ -18,7 +21,7 @@ const OperationTheatre = () => {
         </div>
       </div>
 
-      {/* Grid Section */}
+   
       <div className="facility-detail-grid">
         <div className="facility-image">
           <img src={otImg} alt="Operation Theatre" />
@@ -26,16 +29,16 @@ const OperationTheatre = () => {
         <div className="facility-text">
           <h2>Excellence in Surgical Care</h2>
           <p>
-            The Operation Theatre (OT) department at Erode Cancer Centre represents the epitome of precision, safety, and innovation in oncology surgery. Designed to meet international standards, our state-of-the-art OT facilities are equipped to handle a wide array of surgical procedures, from routine cancer surgeries to complex and minimally invasive interventions.
+            The Operation Theatre (OT) department at Erode Cancer Centre Salem Unit represents the epitome of precision, safety, and innovation in oncology surgery. Designed to meet international standards, our state-of-the-art OT facilities are equipped to handle a wide array of surgical procedures, from routine cancer surgeries to complex and minimally invasive interventions.
           </p>
         </div>
       </div>
 
-      {/* Article Content */}
+     
       <div className="facility-article-section">
         <h2>Advanced OT Facilities</h2>
         <p>
-          The Operation Theatres at Erode Cancer Centre are equipped with cutting-edge technologies and infrastructure to ensure the best surgical outcomes.
+          The Operation Theatres at Erode Cancer Centre Salem Unit are equipped with cutting-edge technologies and infrastructure to ensure the best surgical outcomes.
         </p>
         <ul>
           <li>Sterile Environment: Strict infection control protocols.</li>
@@ -68,7 +71,7 @@ const OperationTheatre = () => {
         </ul>
 
         <p>
-          At Erode Cancer Centre, our Operation Theatre department stands as a pillar of excellence in cancer care — delivering advanced surgeries with precision, compassion, and a focus on optimal outcomes.
+          At Erode Cancer Centre Salem Unit, our Operation Theatre department stands as a pillar of excellence in cancer care — delivering advanced surgeries with precision, compassion, and a focus on optimal outcomes.
         </p>
       </div>
     </div>

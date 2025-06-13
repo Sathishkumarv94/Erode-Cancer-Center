@@ -2,6 +2,7 @@
   font-family: 'Serif', serif;
   padding: 20px;
   background-color: #f9f9f9;
+  margin-top: 95px;
 }
 
 .md-chairman-banner {
@@ -55,5 +56,11 @@
   @media all and (max-width:1050px){
     .md-chairman-text2 p{
         margin-left: 10px;
+    }
+  }
+  @media all and (max-width: 786px)
+  {
+    .md-chairman-container {
+      margin-top: 0px;
     }
   }

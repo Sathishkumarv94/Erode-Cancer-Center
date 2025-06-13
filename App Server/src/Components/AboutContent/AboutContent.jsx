@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutContent.css';
-import aboutImage from './Assets/front1.webp'; 
+import aboutImage from './Assets/pha.jpg'; 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import  { useEffect } from 'react';// replace with your actual image path

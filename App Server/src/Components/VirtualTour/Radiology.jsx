@@ -1,15 +1,18 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./FacilityDetail.css";
 
-import radiologyImg from "./Assets/fac7.webp"; // Image for grid section
-import heroImg from "./Assets/rad.jpg"; // Hero banner image
+import radiologyImg from "./Assets/fac7.webp"; 
+import heroImg from "./Assets/rad.jpg"; 
 
 const Radiology = () => {
+  useEffect(() => {
+        document.title = "Radiology| Erode Cancer Centre Salem Unit";
+      }, []);
   return (
     <>
     
     <div className="facility-detail-page">
-      {/* Hero Section */}
+    
       <div className="hero-section">
         <img src={heroImg} alt="Radiology Banner" className="hero-image" />
         <div className="hero-overlay">
@@ -18,7 +21,7 @@ const Radiology = () => {
         </div>
       </div>
 
-      {/* Grid Section */}
+      
       <div className="facility-detail-grid">
         <div className="facility-image">
           <img src={radiologyImg} alt="Radiology Department" />
@@ -26,12 +29,12 @@ const Radiology = () => {
         <div className="facility-text">
           <h2>Advanced Imaging Technology</h2>
           <p>
-            Our Radiology department at Erode Cancer Centre combines state-of-the-art imaging tools with expert radiologists to ensure quick, reliable, and detailed diagnostic results. We specialize in oncology imaging for accurate treatment planning and monitoring.
+            Our Radiology department at Erode Cancer Centre Salem Unit combines state-of-the-art imaging tools with expert radiologists to ensure quick, reliable, and detailed diagnostic results. We specialize in oncology imaging for accurate treatment planning and monitoring.
           </p>
         </div>
       </div>
 
-      {/* Article Section */}
+      
       <div className="facility-article-section">
         <h2>Our Services</h2>
         <ul>
@@ -51,7 +54,7 @@ const Radiology = () => {
         </ul>
 
         <p>
-          At Erode Cancer Centre, our Radiology team is committed to delivering precision diagnostics that form the backbone of effective cancer treatment. Our compassionate approach, combined with the latest technology, ensures that every patient receives timely, accurate, and comfortable care.
+          At Erode Cancer Centre Salem Unit, our Radiology team is committed to delivering precision diagnostics that form the backbone of effective cancer treatment. Our compassionate approach, combined with the latest technology, ensures that every patient receives timely, accurate, and comfortable care.
         </p>
       </div>
     </div>

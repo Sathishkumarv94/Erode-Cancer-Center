@@ -1,15 +1,18 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./FacilityDetail.css";
 
-import icuImg from "./Assets/fac8.webp"; // Image for grid section
-import heroImg from "./Assets/icu.jpg"; // Hero banner image
+import icuImg from "./Assets/icu.jpg"; 
+import heroImg from "./Assets/icu2.jpg"; 
 
 const ICU = () => {
+  useEffect(() => {
+        document.title = "ICU | Erode Cancer Centre Salem Unit";
+      }, []);
   return (
     <>
     
     <div className="facility-detail-page">
-      {/* Hero Section */}
+
       <div className="hero-section">
         <img src={heroImg} alt="ICU Banner" className="hero-image" />
         <div className="hero-overlay">
@@ -18,7 +21,7 @@ const ICU = () => {
         </div>
       </div>
 
-      {/* Grid Section */}
+
       <div className="facility-detail-grid">
         <div className="facility-image">
           <img src={icuImg} alt="ICU Facility" />
@@ -31,7 +34,6 @@ const ICU = () => {
         </div>
       </div>
 
-      {/* Article Section */}
       <div className="facility-article-section">
         <h2>Specialized ICU Features</h2>
         <ul>
@@ -50,7 +52,7 @@ const ICU = () => {
         </ul>
 
         <p>
-          The ICU at Erode Cancer Centre combines cutting-edge technology with a patient-focused approach. Our priority is to stabilize and support patients with compassion and expertise during the most vulnerable stages of their treatment journey.
+          The ICU at Erode Cancer Centre Salem Unit combines cutting-edge technology with a patient-focused approach. Our priority is to stabilize and support patients with compassion and expertise during the most vulnerable stages of their treatment journey.
         </p>
       </div>
     </div>

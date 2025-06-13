@@ -1,15 +1,18 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./FacilityDetail.css";
 
-import labImg from "./Assets/fac4.webp";
+import labImg from "./Assets/lab2.jpg";
 import heroImg from "./Assets/lab.jpg"
 
 const Laboratory = () => {
+  useEffect(() => {
+        document.title = "Laboratory | Erode Cancer Centre Salem Unit";
+      }, []);
   return (
     <>
 
     <div className="facility-detail-page">
-    {/* Hero Section */}
+   
     <div className="hero-section">
       <img src={heroImg} alt="Laboratory Banner" className="hero-image" />
       <div className="hero-overlay">
@@ -18,7 +21,7 @@ const Laboratory = () => {
       </div>
     </div>
 
-    {/* Grid Section */}
+  
     <div className="facility-detail-grid">
       <div className="facility-image">
         <img src={labImg} alt="Laboratory" />
@@ -33,7 +36,7 @@ const Laboratory = () => {
       </div>
     </div>
 
-    {/* Article Content */}
+ 
     <div className="facility-article-section">
       <h2>Haematology</h2>
       <p>

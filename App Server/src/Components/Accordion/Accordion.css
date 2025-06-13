@@ -8,15 +8,15 @@
     margin-bottom: 50px;
   }
   
-  .section-title {
-    font-size: 2.7rem;
+  .sections-title {
+    font-size: 2.5rem;
     color: #f27c49 !important;
     font-weight: bold;
   }
   
-  .section-subtitle {
-    font-size: 1.1rem;
-    color: #555;
+  .sections-subtitle {
+    font-size: 1.3rem;
+    color: #e62780;
     margin-top: 10px;
   }
   
@@ -79,7 +79,6 @@
     
   }
   
-  /* Responsive */
   @media (max-width: 768px) {
     .accordion-image-layout {
       flex-direction: column;

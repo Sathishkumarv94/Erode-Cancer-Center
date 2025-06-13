@@ -1,15 +1,17 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import "./FacilityDetail.css";
-
-import dayCareImg from "./Assets/Ward.webp"; // Image for grid section
-import heroImg from "./Assets/ward1.jpg";   // Hero banner image
+import dayCareImg from "./Assets/Ward2.jpg"; 
+import heroImg from "./Assets/ward1.jpg";   
 
 const DayCare = () => {
+  useEffect(() => {
+        document.title = "DayCare | Erode Cancer Centre Salem Unit";
+      }, []);
   return (
     <>
     
     <div className="facility-detail-page">
-      {/* Hero Section */}
+     
       <div className="hero-section">
         <img src={heroImg} alt="Day Care Banner" className="hero-image" />
         <div className="hero-overlay">
@@ -18,7 +20,7 @@ const DayCare = () => {
         </div>
       </div>
 
-      {/* Grid Section */}
+     
       <div className="facility-detail-grid">
         <div className="facility-image">
           <img src={dayCareImg} alt="Day Care Facility" />
@@ -31,7 +33,7 @@ const DayCare = () => {
         </div>
       </div>
 
-      {/* Article Section */}
+      
       <div className="facility-article-section">
         <h2>Features of Our Day Care Unit</h2>
         <ul>
@@ -50,7 +52,7 @@ const DayCare = () => {
         </ul>
 
         <p>
-          The Day Care unit at Erode Cancer Centre reflects our commitment to patient-centered care. We prioritize clinical efficiency, patient comfort, and personalized treatment — all within a few dedicated hours of care per visit.
+          The Day Care unit at Erode Cancer Centre Salem Unit reflects our commitment to patient-centered care. We prioritize clinical efficiency, patient comfort, and personalized treatment — all within a few dedicated hours of care per visit.
         </p>
       </div>
     </div>

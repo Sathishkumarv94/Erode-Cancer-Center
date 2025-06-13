@@ -1,5 +1,6 @@
 import React from 'react';
 import CountUp from 'react-countup';
+import { useInView } from 'react-intersection-observer';
 import './PatientStats.css';
 
 const stats = [
@@ -11,13 +12,23 @@ const stats = [
 ];
 
 const PatientStats = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.3, 
+  });
+
   return (
-    <section className="plain-stats-section">
+    <section className="plain-stats-section" ref={ref}>
       <div className="plain-stats-wrapper">
         {stats.map((stat, index) => (
           <div key={index} className="plain-stat-item">
             <span className="plain-stat-number">
-              <CountUp end={stat.count} duration={2} separator="," />+
+              {inView ? (
+                <CountUp end={stat.count} duration={2} separator="," />
+              ) : (
+                '0'
+              )}
+              +
             </span>
             <span className="plain-stat-label">{stat.label}</span>
           </div>

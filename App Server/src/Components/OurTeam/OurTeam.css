@@ -1,150 +1,81 @@
-.doctors-section {
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #f9f9ff;
-  }
-  .section-title{
-    padding-bottom: 50px;
-    color: blueviolet;
-    border: none  !important;
-  }
+.doc-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9ff;
+  overflow: hidden;
+}
+
+.sect-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f27c49;
+  margin-bottom: 40px;
+}
+
+.doc-card {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
   
-  .doctors-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 40px;
-    color: blueviolet;
-  }
-  
-  .doctors-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 50px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .doctor-card {
-    text-align: center;
-  }
-  
-  .image-border {
-    width: 210px;
-    height: 210px;
-    border-radius: 50%;
-    padding: 14px;
-    background: #ddd;
-    transition: background 0.4s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto 30px;
-  }
-  
-  .image-border:hover {
-    background: linear-gradient(to right, #7f00ff, #e100ff);
-  }
-  
-  .doctor-image {
-    width: 100%;
-    height: 100%;
-    /* object-fit: cover; */
-    border-radius: 50%;
-  }
-  
-  .doctor-name {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #333;
-  }
-  
-  .doctor-specialty {
-    font-size: 0.95rem;
-    color: #777;
-  }
-  .doctor-specialty
-  {
-    margin-top: 10px;
-    font-size:0.95rem;
-    font-weight:500;
-  }
-  .doctor-section {
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #f9f9ff;
-  }
-  
-  .section-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .section-subtitle {
-    font-size: 1rem;
-    color: #777;
-    margin-bottom: 40px;
-  }
-  
-  .doctor-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 50px;
-    max-width: 1200px;
-    margin: 0 auto 60px;
-  }
-  
-  .doctor-card {
-    text-align: center;
-    transition: transform 0.3s ease;
-  }
-  
-  .image-wrapper {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    padding: 14px;
-    background: #ddd;
-    transition: background 0.4s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto 30px;
-  }
-  
-  
-  
-  .doctor-image {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    /* object-fit: cover; */
-  }
-  
-  .doctor-name {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #333;
-  }
-  
-  .doctor-specialty {
-    margin-top: 10px;
-    font-size: 0.95rem;
-    font-weight: 500;
-    color: #777;
-  }
-  
-  /* Visiting Doctor Styles */
-  .visiting-heading {
-    margin-top: 80px;
-  }
-  
-  .visiting-border {
-    background: #ccc;
-  }
-  
-  .visiting-border:hover {
-    background: linear-gradient(to left, #00c9ff, #92fe9d);
-  }
-  
+}
+
+.doc-image-container {
+  position: relative;
+  width: 260px;
+  height: 320px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.doc-image-container:hover {
+  transform: translateY(-5px);
+}
+
+.doc-image {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s ease;
+  border-radius: 0;
+}
+
+.doc-image-container:hover .doc-image {
+  transform: scale(1.05);
+}
+
+.hover-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.doc-image-container:hover .hover-overlay {
+  opacity: 1;
+}
+
+.doc-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: white;
+  text-align: center;
+}
+
+.doc-specialty {
+  font-size: 1rem;
+  color: #eee;
+  font-weight: 600;
+}

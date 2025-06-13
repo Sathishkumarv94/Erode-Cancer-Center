@@ -5,7 +5,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-// Replace these with your real logos
 import logo1 from "./Assets/bupa250.webp";
 import logo2 from "./Assets/cola250.webp";
 import logo3 from "./Assets/liberty250.webp";
@@ -21,8 +20,8 @@ const insuranceLogos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, 
 const InsuranceSlider = () => {
     useEffect(() => {
         AOS.init({
-          duration: 1000, // animation duration in ms
-          once: false,     // whether animation should happen only once - while scrolling down
+          duration: 1000, 
+          once: false,     
         });
       }, []);
   const settings = {

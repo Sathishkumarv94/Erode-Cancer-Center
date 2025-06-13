@@ -1,5 +1,8 @@
-import { useState } from 'react'
-import Home from './Components/Home/Home'
+import React, { Suspense, lazy } from "react";
+import Loader from './Components/Loader/Loader';
+import { useState, useEffect } from 'react';
+
+
 import AboutPage from './Components/About/AboutPage'
 import News from './Components/News&Events/News'
 import Blogs from './Components/Blogs/Blogs'
@@ -26,12 +29,23 @@ import Contact from './Components/Contact/Contact'
 import WhatsAppChat from './Components/WhatsAppChat/WhatsAppChat'
 import Footer from './Components/Footer/Footer'
 import MDChairman from './Components/MD & Chairman/MD'
-
+import ScrollToTop from './Components/ScrollTop/ScrollTop'
+const Home = lazy(() => import("./Components/Home/Home"))
 function App() {
+  const [loading, setLoading] = useState(true);
+
+useEffect(() => {
+  const timer = setTimeout(() => setLoading(false), 1200); // Adjust delay if needed
+  return () => clearTimeout(timer);
+}, []);
+
+if (loading) return <Loader />;
 return(
   <div>
   <Router>
+  <ScrollToTop />
     <Header></Header>
+    <Suspense fallback={<div>Loading...</div>}>
     <Routes>
     
     <Route path="/" element={<Home />} />
@@ -39,14 +53,16 @@ return(
     <Route path="//our-experts" element={<DoctorsSection/>}/>
     <Route path='/news'  element={<News></News>}/>
     <Route path="/blogs" element={<Blogs />} />
-    <Route path="/blog/:id" element={<BlogDetails />} />
-    <Route path="/Cancer Screening" element={<CancerScreening />} />
-    <Route path="/Early Cancer Detection" element={<EarlyDetection />} />
-    <Route path="/Surgical Oncology" element={<SurgicalOncology />} />
-    <Route path="/Medical Oncology" element={<MedicalOncology />} />
-    <Route path="/Radiation Oncology" element={<RadiationOncology />} />
-    <Route path="/H D R Brachytherapy" element={<HDRBrachytherapy  />} />
-    <Route path="/Pain & Palliative Care" element={<PalliativeCare  />} />
+    <Route path="/blog">
+  <Route path=":id" element={<BlogDetails />} />
+</Route>
+    <Route path="/cancer-screening" element={<CancerScreening />} />
+    <Route path="/early-cancer-detection" element={<EarlyDetection />} />
+    <Route path="/surgical-oncology" element={<SurgicalOncology />} />
+    <Route path="/medical-oncology" element={<MedicalOncology />} />
+    <Route path="/radiation-oncology" element={<RadiationOncology />} />
+    <Route path="/hdr-brachytherapy" element={<HDRBrachytherapy  />} />
+    <Route path="/pain-palliative-care" element={<PalliativeCare  />} />
     <Route path="/facilities/laboratory"  element={<LaboratoryPage  />} />
     <Route path="/facilities/operationtheatre"  element={<OperationTheatre  />} />
     <Route path="/facilities/radiology-suite"  element={<Radiology />} />
@@ -60,6 +76,7 @@ return(
   </Routes>
   <WhatsAppChat></WhatsAppChat>
   <Footer></Footer>
+  </Suspense>
   </Router>
   </div>
 )

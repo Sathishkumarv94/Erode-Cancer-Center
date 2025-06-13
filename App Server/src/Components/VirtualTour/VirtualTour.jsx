@@ -1,12 +1,12 @@
 import React from "react";
 import "./VirtualTour.css";
 import { useNavigate } from "react-router-dom";
-import tourImage1 from "./Assets/fac3.jpeg";
-import tourImage2 from "./Assets/fac7.webp";
-import tourImage3 from "./Assets/fac6.webp";
-import tourImage4 from "./Assets/fac8.webp";  // New Image for the second grid
-import tourImage5 from "./Assets/fac4.webp";  // New Image for the second grid
-import tourImage6 from "./Assets/fac9.webp";  // New Image for the second grid
+import tourImage1 from "./Assets/ope.jpg";
+import tourImage2 from "./Assets/radio.jpg";
+import tourImage3 from "./Assets/ward.jpg";
+import tourImage4 from "./Assets/icu.jpg";  
+import tourImage5 from "./Assets/lab2.jpg";  
+import tourImage6 from "./Assets/fac9.webp"; 
 import { motion } from "framer-motion";
 
 const highlights = [
@@ -63,7 +63,10 @@ const VirtualTour = () => {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 viewport={{ once: true }}
-                onClick={() => navigate(item.path)}
+                onClick={() => {
+                  window.scrollTo(0, 0); 
+                  navigate(item.path);
+                }}
                 style={{ cursor: "pointer" }}
               >
                 <div className="tour-image-container">

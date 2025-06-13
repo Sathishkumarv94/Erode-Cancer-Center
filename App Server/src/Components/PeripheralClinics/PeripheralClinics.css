@@ -4,6 +4,7 @@
     width: 100%;
     overflow: hidden;
     margin-bottom: 50px;
+    margin-top: 95px;
   }
   
   .peripheral-hero-image {
@@ -34,22 +35,17 @@
     margin: 0 auto;
   }
   
-/* .peripheral-clinics-container {
-    padding: 2rem;
-    background: #f9f9f9;
-  } */
-  
   .page-title {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 0.5rem;
-    color: blueviolet;
+    color: #e32782;
   }
   
   .intro-text {
     text-align: center;
     margin-bottom: 2rem;
-    color: blueviolet;
+    color: #e32782;
     font-size: 1.1rem;
   }
   
@@ -61,9 +57,10 @@
     font-size: 1.5rem !important;
     cursor: pointer;
     margin-bottom: 1rem;
-    color: blueviolet;
+    color:#f27c49;
     border-bottom: 2px solid #ddd;
     padding-bottom: 0.5rem;
+    text-align: center;
   }
   
   .card-grid {
@@ -105,5 +102,11 @@
   .contact {
     color: #333;
     font-weight: 500;
+  }
+  @media all and ( max-width: 786px)
+  {
+    .peripheral-hero{
+      margin-top: 0px;
+    }
   }
   

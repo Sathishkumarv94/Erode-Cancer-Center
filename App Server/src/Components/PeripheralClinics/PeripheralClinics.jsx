@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './PeripheralClinics.css';
 import clinicImage from './Assets/hospital.png';
 import peripheralHeroImage from './Assets/ho2.jpg';
- // Replace with your actual PNG path
+ 
 
  const PeripheralHero = () => {
+  useEffect(() => {
+      document.title = "Clinics | Erode Cancer Centre Salem Unit";
+    }, []);
     return (
       <div className="peripheral-hero">
         <img src={peripheralHeroImage} alt="Peripheral Clinics" className="peripheral-hero-image" />
@@ -25,13 +28,7 @@ const hospitalData = [
      contact: 'Phone : +91 424 2339704,',
      Mobile: ' +91 98428 22443,',
      Email: ' info@erodecancercentre.com,' },
-  // { name: 'SALEM', 
-  //   location: 'No 370, Roundana, ' +
-  //         'Kondalampatti,, ' +
-  //         'Salem, Tamil Nadu 636010',
-  //    contact: 'Phone : 0427 227 3477,',
-  //    Mobile: ' +91 90473 09191,',
-  //    Email: ' info@erodecancercentre.com,' },
+  
   { name: 'BANGALORE CANCER CENTRE', 
     location: '118/1-2, Mookambika Temple Road, ' +
           'Machohalli Gate, ' +
@@ -178,7 +175,7 @@ const PeripheralClinics = () => (
     <p className="intro-text">Explore our peripheral clinics, hospitals, and upcoming projects.</p>
 
     <Section title="Hospitals" data={hospitalData} />
-    {/* Repeat for clinics, visiting hospitals, etc. */}
+   
     <Section title="Clinics" data={clinicData} />
     <Section title="Visiting Hospitals" data={visitingData} />
     <Section title="Upcoming Projects" data={upcomingData} showContact={false} />

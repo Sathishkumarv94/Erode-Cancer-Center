@@ -5,7 +5,6 @@ import 'aos/dist/aos.css';
 import './ServiceCards.css';
 import Lottie from 'lottie-react';
 
-// Lottie animation imports
 import sympol from './Assets/sympol.json';
 import sympol2 from './Assets/sympol2.json';
 import sympol3 from './Assets/sympol3.json';
@@ -19,43 +18,43 @@ const services = [
     title: 'Cancer Screening',
     description: 'Comprehensive programs for early detection of cancer.',
     icon: sympol9,
-    path: '/Cancer Screening'
+    path: '/cancer-screening'
   },
   {
     title: 'Early Cancer Detection',
     description: 'Innovative tests and diagnostics for early signs.',
     icon: sympol4,
-    path: '/Early Cancer Detection'
+    path: '/early-cancer-detection'
   },
   {
     title: 'Surgical Oncology',
     description: 'Advanced surgical procedures for tumor removal.',
     icon: sympol7,
-    path: '/Surgical Oncology'
+    path: '/surgical-oncology'
   },
   {
     title: 'Medical Oncology',
     description: 'Targeted therapies and chemotherapy treatment.',
     icon: sympol,
-    path: '/Medical Oncology'
+    path: '/medical-oncology'
   },
   {
     title: 'Radiation Oncology-IMRT',
     description: 'Precise radiation technology for effective treatment.',
     icon: sympol2,
-    path: '/Radiation Oncology'
+    path: '/radiation-oncology'
   },
   {
     title: 'H D R Brachytherapy',
     description: 'Internal radiation therapy with high-dose rates.',
     icon: sympol6,
-    path: '/H D R Brachytherapy'
+    path: '/hdr-brachytherapy'
   },
   {
     title: 'Pain & Palliative Care',
     description: 'Relieving pain and improving quality of life.',
     icon: sympol3,
-    path: '/Pain & Palliative Care'
+    path: '/pain-palliative-care'
   }
 ];
 

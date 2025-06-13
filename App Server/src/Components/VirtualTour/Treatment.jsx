@@ -1,15 +1,18 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./FacilityDetail.css";
-import treatImg from "./Assets/fac9.webp"; // Image for grid section
-import heroImg from "./Assets/treat.jpg"; // Hero banner image
+import treatImg from "./Assets/fac9.webp";
+import heroImg from "./Assets/treat.jpg"; 
 
 
 const Treatments = () => {
+  useEffect(() => {
+        document.title = "Treatments | Erode Cancer Centre Salem Unit";
+      }, []);
   return (
     <>
     
     <div className="facility-detail-page">
-      {/* Hero Section */}
+      
       <div className="hero-section">
         <img src={heroImg} alt="Treatments Banner" className="hero-image" />
         <div className="hero-overlay">
@@ -18,7 +21,7 @@ const Treatments = () => {
         </div>
       </div>
 
-      {/* Grid Section */}
+      
       <div className="facility-detail-grid">
         <div className="facility-image">
           <img src={treatImg} alt="Cancer Treatments" />
@@ -26,12 +29,12 @@ const Treatments = () => {
         <div className="facility-text">
           <h2>Multi-Modal Cancer Treatment</h2>
           <p>
-            At Erode Cancer Centre, we provide tailored treatment plans combining surgery, chemotherapy, radiation therapy, and targeted therapies, offering holistic care for every stage of cancer.
+            At Erode Cancer Centre Salem Unit, we provide tailored treatment plans combining surgery, chemotherapy, radiation therapy, and targeted therapies, offering holistic care for every stage of cancer.
           </p>
         </div>
       </div>
 
-      {/* Article Section */}
+      
       <div className="facility-article-section">
         <h2>Key Treatment Modalities</h2>
         <ul>
@@ -54,7 +57,7 @@ const Treatments = () => {
         </ul>
 
         <p>
-          With cutting-edge facilities and a compassionate team, Erode Cancer Centre is committed to delivering not just treatment but hope, healing, and support throughout the cancer journey.
+          With cutting-edge facilities and a compassionate team, Erode Cancer Centre Salem Unit is committed to delivering not just treatment but hope, healing, and support throughout the cancer journey.
         </p>
       </div>
     </div>

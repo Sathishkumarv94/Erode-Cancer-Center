@@ -79,13 +79,13 @@ const ContactPage = () => {
 
             <div className="contact-info-section">
                 <h3>Contact Information</h3>
-                <p><MapPin size={16} /><strong> Address</strong>:<br /> No 370, Roundana, Kondalampatti, Salem, Tamil Nadu 636010</p>
-                <p><Phone size={16} /> <strong>Phone</strong>: 0427 227 3477</p>
-                <p><Mail size={16} /><strong> Email</strong>: info@erodecancercentre.com</p>
-                <h4>PROs:</h4>
-                <p>Mr. Anbarasu: +91 90473 09191</p>
-                <p>Mr. Arunraj: +91 95668 75990</p>
-                <p>Mr. Mayilvaganan: +91 94426 46691</p>
+                <p><MapPin size={16} /><strong> Address</strong>:<br /><h4> No 370, Roundana, Kondalampatti, Salem, Tamil Nadu 636010</h4></p>
+                <p><Phone size={16} /> <strong>Phone</strong>:<h4> 0427 227 3477</h4></p>
+                <p><Mail size={16} /><strong> Email</strong>:<h4> salem@erodecancercentre.com</h4></p>
+                <p ><strong>PROs</strong>:</p>
+                <h4>Mr. Anbarasu: +91 90473 09191</h4>
+                <h4>Mr. Arunraj: +91 95668 75990</h4>
+                <h4>Mr. Mayilvaganan: +91 94426 46691</h4>
             </div>
         </div>
 

@@ -24,7 +24,7 @@ Heartfelt thanks to Erode Arts and Science College for their immense support in 
       `
     },
     {
-      id: "Mega Free Medical Camp!",
+      id: "mega-free-medical-camp",
       title: "Mega Free Medical Camp!",
       date: "April 12, 2025",
       image: camp1,
@@ -34,7 +34,7 @@ Heartfelt thanks to Erode Arts and Science College for their immense support in 
 
 A heartfelt THANK YOU to:
 
-✅ The expert doctors and medical staff from Erode Cancer Centre, Aravinth Hospitals, Arasan Eye Hospital, and Star Smile Dental Clinic for their dedicated service.
+✅ The expert doctors and medical staff from Erode Cancer Centre Salem Unit, Aravinth Hospitals, Arasan Eye Hospital, and Star Smile Dental Clinic for their dedicated service.
 ✅ Our volunteers and organizers for their hard work in making this camp smooth and effective.
 ✅ All the attendees who took a step towards better health!
 
@@ -42,26 +42,26 @@ A heartfelt THANK YOU to:
       `
     },
     {
-      id: "Role of Radiation Therapy in Head and Neck Cancer and Recent Advances",
+      id: "radiation-therapy-head-neck-cancer",
       title: "Role of Radiation Therapy in Head and Neck Cancer and Recent Advances",
       date: "April 12, 2025",
       image: camp2,
-      description: "We extend our heartfelt thanks to Vinayaka Mission’s Sankarachariyar Dental College for inviting Erode Cancer Centre to the Tumour Board Meeting on “Role of Radiation Therapy...",
+      description: "We extend our heartfelt thanks to Vinayaka Mission’s Sankarachariyar Dental College for inviting Erode Cancer Centre Salem Unit to the Tumour Board Meeting on “Role of Radiation Therapy...",
       fullContent: `
-       We extend our heartfelt thanks to Vinayaka Mission’s Sankarachariyar Dental College for inviting Erode Cancer Centre to the Tumour Board Meeting on “Role of Radiation Therapy in Head and Neck Cancer and Recent Advances.”
+       We extend our heartfelt thanks to Vinayaka Mission’s Sankarachariyar Dental College for inviting Erode Cancer Centre Salem Unit to the Tumour Board Meeting on “Role of Radiation Therapy in Head and Neck Cancer and Recent Advances.”
 
 An insightful session awaits as we discuss cutting-edge advancements in cancer treatment! Looking forward to meaningful discussions and collaborations.
       `
     },
     {
-        id: "Radiation Safety Training Program",
+        id: "radiation-safety-training",
         title: "Radiation Safety Training Program",
         date: "April 13, 2025",
         image: camp3,
         description: "Erode, Tamil Nadu: [16.12.2024] – Dr. Thayalan. K, a renowned expert in radiation safety, recently conducted a comprehensive training session on Radiation Safety...",
         fullContent: `
-        Dr. Thayalan Conducts Radiation Safety Training at Erode Cancer Centre
-Erode, Tamil Nadu: [16.12.2024] – Dr. Thayalan. K, a renowned expert in radiation safety, recently conducted a comprehensive training session on Radiation Safety in Healthcare at the Erode Cancer Centre. The session was aimed at educating healthcare professionals about the importance of radiation safety practices and minimizing radiation exposure.
+        Dr. Thayalan Conducts Radiation Safety Training at Erode Cancer Centre Salem Unit
+Erode, Tamil Nadu: [16.12.2024] – Dr. Thayalan. K, a renowned expert in radiation safety, recently conducted a comprehensive training session on Radiation Safety in Healthcare at the Erode Cancer Centre Salem Unit. The session was aimed at educating healthcare professionals about the importance of radiation safety practices and minimizing radiation exposure.
 
 During the insightful session, Dr. Thayalan covered a wide range of topics, including:
 
@@ -77,13 +77,13 @@ The training session was well-received by the participants, who appreciated Dr. 
         `
       },
       {
-        id: "World Cancer Day 2025",
+        id: "world-cancer-day-2025",
         title: "World Cancer Day 2025",
         date: "Feb 04, 2025",
         image: camp4,
-        description: "Erode Cancer Centre celebrates Cancer Day to raise awareness, honor survivors, and support fighters...",
+        description: "Erode Cancer Centre Salem Unit celebrates Cancer Day to raise awareness, honor survivors, and support fighters...",
         fullContent: `
-       Erode Cancer Centre celebrates Cancer Day to raise awareness, honor survivors, and support fighters.
+       Erode Cancer Centre Salem Unit  celebrates Cancer Day to raise awareness, honor survivors, and support fighters.
 
 World Cancer Day is an international day marked on 4 February to raise awareness of cancer and to encourage its prevention, detection, and treatment. World Cancer Day is led by the Union for International Cancer Control (UICC) to support the goals of the World Cancer Declaration, written in 2008.
 
@@ -98,7 +98,7 @@ You can reduce your risk of cancer by making healthy lifestyle choices, such as 
         title: "Awarness",
         date: "Feb 04, 2025",
         image: camp5,
-        description: "Erode Cancer Centre regularly conducts awareness programs to educate the public about cancer prevention, early detection, and treatment options...",
+        description: "Erode Cancer Centre Salem Unit regularly conducts awareness programs to educate the public about cancer prevention, early detection, and treatment options...",
         fullContent: `
       A cancer risk factor is anything that increases a person's likelihood of developing cancer. Risk factors can include lifestyle factors such as smoking, alcohol consumption and poor diet, as well as genetic and environmental factors. Identifying and addressing risk factors through policy and programmes and behaviour changes can reduce the risk of developing cancer.
 

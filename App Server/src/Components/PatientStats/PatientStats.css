@@ -8,7 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px; /* more space between stats */
+    gap: 50px; 
     font-family: 'Segoe UI', sans-serif;
   }
   
@@ -19,27 +19,27 @@
   }
   
   .plain-stat-number {
-    font-size: 30px; /* Larger font size */
+    font-size: 30px;
     font-weight: bold;
-    color: #f27c49; /* deep purple */
-    letter-spacing: 2px; /* added space between numbers */
+    color: #f27c49;
+    letter-spacing: 2px;
   }
   
   .plain-stat-label {
-    font-size: 23px; /* Increased font size for labels */
+    font-size: 23px;
     color: #5e5e5e;
     margin-top: 8px;
-    font-weight: 600; /* bolder text */
-    text-transform: capitalize; /* Makes labels more readable */
+    font-weight: 600; 
+    text-transform: capitalize; 
   }
   
-  /* Responsive */
+ 
   @media (max-width: 768px) {
     .plain-stat-number {
-      font-size: 42px; /* Smaller font size on mobile */
+      font-size: 42px;
     }
     .plain-stat-label {
-      font-size: 18px; /* Adjust label size */
+      font-size: 18px; 
     }
   }
   

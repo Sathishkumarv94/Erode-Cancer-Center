@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Accordion.css";
 import { FaHeartbeat, FaEye, FaHandsHelping, FaStethoscope } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
-import doctorImg from "./Assets/hos3.jpg"; // Replace with your image path
+import doctorImg from "./Assets/rec.jpg"; // Replace with your image path
 
 const faqs = [
   {
@@ -40,26 +40,22 @@ const AnimatedAccordion = () => {
   return (
     <section className="accordion-section">
       <div className="accordion-heading">
-        <h2 className="section-title">Our Promise to You</h2>
-        <p className="section-subtitle">
+        <h2 className="sections-title">Our Promise to You</h2>
+        <p className="sections-subtitle">
           Built on compassion, technology, and trust – here’s what drives us forward.
         </p>
       </div>
 
       <div className="accordion-image-layout">
-        {/* Left Side Image */}
         <div className="image-column">
           <img src={doctorImg} alt="Our Team" />
         </div>
-
-        {/* Right Side Accordion */}
         <div className="accordion-column">
           {faqs.map((item, index) => (
             <div
               key={index}
               className={`accordion-item ${activeIndex === index ? "active" : ""}`}
-              onClick={() => toggle(index)}
-            >
+              onClick={() => toggle(index)} >
               <div className="accordion-header">
                 <span className="accordion-icon">{item.icon}</span>
                 <h4>{item.title}</h4>
@@ -71,8 +67,7 @@ const AnimatedAccordion = () => {
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: "auto" }}
                     exit={{ opacity: 0, height: 0 }}
-                    transition={{ duration: 0.3 }}
-                  >
+                    transition={{ duration: 0.3 }} >
                     <p>{item.content}</p>
                   </motion.div>
                 )}

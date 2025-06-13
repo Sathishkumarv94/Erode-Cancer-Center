@@ -65,9 +65,18 @@
   }
   
   .social-icons a:hover {
-    color: blueviolet;
+    color: #f27c49;
   }
-  
+  .xs-icon
+  {
+    height: 21px;
+    width: 21px;
+    background-color: white;
+  }
+  .xs-icon a:hover {
+    color: white ;
+    background-color: black;
+  }
   .footer-bottom {
     text-align: center;
     margin-top: 2rem;
@@ -75,6 +84,18 @@
     padding-top: 1rem;
     font-size: 0.9rem;
     color: #999;
+  }
+  .footer-link {
+    display: block;
+    margin: 6px 0;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-link:hover {
+    color: #f27c49;
   }
   
   /* Responsive */

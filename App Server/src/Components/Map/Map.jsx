@@ -5,7 +5,7 @@ import './Map.css';
 const LocationMap = () => {
   return (
     <div className="health-article-wrapper">
-      {/* Title with animation */}
+     
       <motion.h2
         className="map-title"
         initial={{ scale: 0.8, y: -30, opacity: 0 }}
@@ -16,7 +16,7 @@ const LocationMap = () => {
       </motion.h2>
 
       <div className="health-article-container">
-        {/* Left: Address Section */}
+        
         <motion.div
           className="address-section"
           initial={{ x: -50, opacity: 0 }}
@@ -29,7 +29,7 @@ const LocationMap = () => {
           <p>🕒 Mon-Fri, 9:00 AM - 5:00 PM</p>
         </motion.div>
 
-        {/* Right: Map Section */}
+       
         <motion.div
           className="loc-section"
           initial={{ x: 50, opacity: 0 }}

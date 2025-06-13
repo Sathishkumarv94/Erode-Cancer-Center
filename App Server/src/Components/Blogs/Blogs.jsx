@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Blogs.css";
 import { Link } from "react-router-dom";
 import newsArticles from "./newsArticles";
 
 
 const Blogs = () => {
+  useEffect(() => {
+    document.title = "Blogs | Erode Cancer Centre Salem Unit";
+  }, []);
   return (
     <section className="news-section">
       <div className="container">

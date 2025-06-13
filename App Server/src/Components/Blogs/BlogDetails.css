@@ -5,6 +5,7 @@
     font-family: "Segoe UI", sans-serif;
     color: #333;
     line-height: 1.8;
+    margin-top: 95px;
   }
   
   .blog-detail img {
@@ -18,7 +19,7 @@
   .blog-detail h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #222;
+    color: #e82781;
   }
   
   .blog-detail .date {
@@ -30,5 +31,11 @@
   .blog-detail p {
     font-size: 1.1rem;
     margin-bottom: 20px;
+  }
+  @media all and (max-width: 786px)
+  {
+    .blog-detail{
+      margin-top: 0px;
+    }
   }
   
