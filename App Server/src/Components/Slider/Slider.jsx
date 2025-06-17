@@ -10,9 +10,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import './Slider.css';
-import img1 from '../Home/Assets/hos4.jpg';
-import img2 from '../Home/Assets/hos2.jpg';
-import img3 from '../Home/Assets/hos1.jpg';
+import img1 from '../Home/Assets/hos4.webp';
+import img2 from '../Home/Assets/hos2.webp';
+import img3 from '../Home/Assets/hos1.webp';
 
 function CustomSlider() {
     const prevRef = useRef(null);

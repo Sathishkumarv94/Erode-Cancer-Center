@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './CancerScreening.css';
-import heroImg from './Assets/doc4.jpg'; 
-import extraImg from './Assets/onc2.jpg'; 
+import heroImg from './Assets/doc4.webp';
+import extraImg from './Assets/onc2.jpg';
 
 function EarlyDetection() {
   useEffect(() => {
@@ -11,8 +11,8 @@ function EarlyDetection() {
   }, []);
 
   useEffect(() => {
-      document.title = "Facility | Erode Cancer Centre Salem Unit";
-    }, []);
+    document.title = "Facility | Erode Cancer Centre Salem Unit";
+  }, []);
 
   return (
     <>
@@ -31,7 +31,7 @@ function EarlyDetection() {
             Early detection can dramatically increase the chances of successful treatment. Our clinic offers
             cutting-edge diagnostic tools and expert evaluation to catch cancer before symptoms appear.
           </p>
-           
+
           <div className="image-text-section" data-aos="fade-up">
             <div className="image-text-left">
               <img src={extraImg} alt="Early Detection Technology" />

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './CancerScreening.css';
-import heroImg from './Assets/doc4.jpg'; // Hero Image
+import heroImg from './Assets/doc4.webp'; // Hero Image
 import extraImg from './Assets/onc5.jpg'; // Replace with relevant radiation-related image
 import AOS from 'aos';
 import 'aos/dist/aos.css';

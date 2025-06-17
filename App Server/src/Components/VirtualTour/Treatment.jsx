@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import "./FacilityDetail.css";
 import treatImg from "./Assets/fac9.webp";
-import heroImg from "./Assets/treat.jpg"; 
+import heroImg from "./Assets/treat.webp"; 
 
 
 const Treatments = () => {

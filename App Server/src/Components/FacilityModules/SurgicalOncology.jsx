@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './CancerScreening.css';
-import heroImg from './Assets/doc4.jpg'; 
+import heroImg from './Assets/doc4.webp'; 
 import extraImg from './Assets/onc3.jpg'; 
 
 function SurgicalOncologyPage() {

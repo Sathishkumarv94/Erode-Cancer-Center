@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import "./FacilityDetail.css";
 
 import labImg from "./Assets/lab2.jpg";
-import heroImg from "./Assets/lab.jpg"
+import heroImg from "./Assets/lab.webp"
 
 const Laboratory = () => {
   useEffect(() => {

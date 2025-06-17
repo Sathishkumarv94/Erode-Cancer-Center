@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import "./FacilityDetail.css";
 
 import radiologyImg from "./Assets/fac7.webp"; 
-import heroImg from "./Assets/rad.jpg"; 
+import heroImg from "./Assets/rad.webp"; 
 
 const Radiology = () => {
   useEffect(() => {

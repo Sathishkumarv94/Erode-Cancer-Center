@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import './CancerScreening.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import heroImg from './Assets/doc4.jpg';
-import supportImg from './Assets/onc1.jpg';  
+import heroImg from './Assets/doc4.webp';
+import supportImg from './Assets/onc1.jpg';
 import doc from './Assets/doctor1.jpg';
 
 function CancerScreeningPage() {

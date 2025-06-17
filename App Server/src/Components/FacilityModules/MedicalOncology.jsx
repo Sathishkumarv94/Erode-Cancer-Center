@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './CancerScreening.css'; // Ensure your CSS handles shared styles
-import heroImg from './Assets/doc4.jpg';
+import heroImg from './Assets/doc4.webp';
 import extraImg from './Assets/onc4.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -11,8 +11,8 @@ function MedicalOncology() {
   }, []);
 
   useEffect(() => {
-      document.title = "Facility | Erode Cancer Centre Salem Unit";
-    }, []);
+    document.title = "Facility | Erode Cancer Centre Salem Unit";
+  }, []);
 
   return (
     <div className="service-page">

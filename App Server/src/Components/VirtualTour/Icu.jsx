@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import "./FacilityDetail.css";
 
 import icuImg from "./Assets/icu.jpg"; 
-import heroImg from "./Assets/icu2.jpg"; 
+import heroImg from "./Assets/icu2.webp"; 
 
 const ICU = () => {
   useEffect(() => {

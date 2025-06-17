@@ -1,7 +1,7 @@
 import React from "react";
 import "../HealthArticle/HealthTipArticle.css";
 import PatientStats from "../PatientStats/PatientStats";
-import exampleImage1 from "./Assets/img2.jpg";
+import exampleImage1 from "./Assets/img2.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

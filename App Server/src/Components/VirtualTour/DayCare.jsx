@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react";
 import "./FacilityDetail.css";
 import dayCareImg from "./Assets/Ward2.jpg"; 
-import heroImg from "./Assets/ward1.jpg";   
+import heroImg from "./Assets/ward1.webp";   
 
 const DayCare = () => {
   useEffect(() => {
